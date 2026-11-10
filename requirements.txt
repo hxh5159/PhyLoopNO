@@ -1,0 +1,8 @@
+# Install a compatible PyTorch/CUDA build first. Never replace a working GPU stack.
+numpy
+scipy
+einops
+timm
+matplotlib
+tqdm
+PyYAML

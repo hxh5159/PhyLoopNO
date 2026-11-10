@@ -1,0 +1,8 @@
+-r requirements.txt
+torch-geometric
+vtk
+pyvista
+scikit-learn
+seaborn
+# Graph construction also needs pyg-lib (newer PyG) or torch-cluster (older
+# PyG), installed against the selected PyTorch/CUDA build; see README.md.

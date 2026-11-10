@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phyloopno"
+version = "0.1.0"
+description = "Looped Neural Operator with Physics-Gated Dense Expert Layers"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = ["torch>=2.1", "numpy", "scipy", "einops", "timm", "matplotlib", "tqdm", "PyYAML"]
+
+[project.optional-dependencies]
+industrial = ["torch-geometric", "vtk", "pyvista", "scikit-learn", "seaborn"]
+test = ["pytest"]
+
+[project.scripts]
+phyloopno = "phyloopno.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["phyloopno*", "cdlno*", "linearno_loop*", "PDE-Solving-StandardBenchmark*", "Airfoil-Design-AirfRANS*", "Car-Design-ShapeNetCar*"]
+namespaces = true
+
+[tool.setuptools.package-data]
+"*" = ["params.yaml", "LICENSE"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

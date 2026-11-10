@@ -1,0 +1,714 @@
+{
+  "source_repository": "https://github.com/hxh5159/CDLNO-w",
+  "source_commit": "0eece431e4a2019256b048b5f7f67da1283f4b64",
+  "original_repository_modified": false,
+  "original_tracked_file_count": 3553,
+  "source_comparison": "original Git blob bytes; release text uses LF line endings",
+  "unchanged": [
+    {
+      "path": ".gitignore",
+      "sha256": "177afeabbbade7e4fcaa624dbf16ce988f59e7a84262bc12b89918abdf7b9b02",
+      "source_sha256": "177afeabbbade7e4fcaa624dbf16ce988f59e7a84262bc12b89918abdf7b9b02"
+    },
+    {
+      "path": "Airfoil-Design-AirfRANS/LICENSE",
+      "sha256": "05ba154a27eeb81940385d278f8b7cd6f37729df050a3a9803113f686fbd40d4",
+      "source_sha256": "05ba154a27eeb81940385d278f8b7cd6f37729df050a3a9803113f686fbd40d4"
+    },
+    {
+      "path": "Airfoil-Design-AirfRANS/models/LinearNO.py",
+      "sha256": "9e80edd43433a445f3823ed22936d3a96ed22de1514dfefcfead4031537fc38e",
+      "source_sha256": "9e80edd43433a445f3823ed22936d3a96ed22de1514dfefcfead4031537fc38e"
+    },
+    {
+      "path": "Airfoil-Design-AirfRANS/models/LinearNO_Attention.py",
+      "sha256": "c33bc1bd7d8bc69f609511951d613c08c0a760452c117aae608ddb3b3b96e442",
+      "source_sha256": "c33bc1bd7d8bc69f609511951d613c08c0a760452c117aae608ddb3b3b96e442"
+    },
+    {
+      "path": "Airfoil-Design-AirfRANS/models/Transolver.py",
+      "sha256": "1d0c1b932411ac408d8d00ca047d7f875c3176e7b001db802d30c065a7416d74",
+      "source_sha256": "1d0c1b932411ac408d8d00ca047d7f875c3176e7b001db802d30c065a7416d74"
+    },
+    {
+      "path": "Airfoil-Design-AirfRANS/scripts/Evaluation.sh",
+      "sha256": "e6b1145f678f58d346209f091b89c82e573b9724f19db71a6881729b163c2d27",
+      "source_sha256": "e6b1145f678f58d346209f091b89c82e573b9724f19db71a6881729b163c2d27"
+    },
+    {
+      "path": "Airfoil-Design-AirfRANS/scripts/Transolver.sh",
+      "sha256": "80175ed6f8c66ee47e12046c86df06943e1fa533efb0b77cf8a7bd73a907f430",
+      "source_sha256": "80175ed6f8c66ee47e12046c86df06943e1fa533efb0b77cf8a7bd73a907f430"
+    },
+    {
+      "path": "Airfoil-Design-AirfRANS/utils/metrics.py",
+      "sha256": "ee53a3da2a29da9df0063f9f02da0efb0a7f35833b08ceb02a5908fbb3e7e39d",
+      "source_sha256": "ee53a3da2a29da9df0063f9f02da0efb0a7f35833b08ceb02a5908fbb3e7e39d"
+    },
+    {
+      "path": "Airfoil-Design-AirfRANS/utils/metrics_NACA.py",
+      "sha256": "61bbb5968a64cc28ca090245f3bec1d5d176e5d314c887152db7ae86a6184cd3",
+      "source_sha256": "61bbb5968a64cc28ca090245f3bec1d5d176e5d314c887152db7ae86a6184cd3"
+    },
+    {
+      "path": "Airfoil-Design-AirfRANS/utils/naca_generator.py",
+      "sha256": "303e0ed4761b959292078c0287eef64a6b65ac91671b871e7008b737e01e3b6e",
+      "source_sha256": "303e0ed4761b959292078c0287eef64a6b65ac91671b871e7008b737e01e3b6e"
+    },
+    {
+      "path": "Car-Design-ShapeNetCar/dataset/dataset.py",
+      "sha256": "9f3cb4f16655cc59a7b8134e69aba88bd6bc5434a8093d4edce14bcb1878ea78",
+      "source_sha256": "9f3cb4f16655cc59a7b8134e69aba88bd6bc5434a8093d4edce14bcb1878ea78"
+    },
+    {
+      "path": "Car-Design-ShapeNetCar/dataset/load_dataset.py",
+      "sha256": "e4071f35ef2985f193f00609ba174e8b8dba990fd778a640825aa061758ff410",
+      "source_sha256": "e4071f35ef2985f193f00609ba174e8b8dba990fd778a640825aa061758ff410"
+    },
+    {
+      "path": "Car-Design-ShapeNetCar/models/LinearNO.py",
+      "sha256": "bc707e4564b85ea0c975119f1be26a1156eff93238681d6f479c84a16cec356a",
+      "source_sha256": "bc707e4564b85ea0c975119f1be26a1156eff93238681d6f479c84a16cec356a"
+    },
+    {
+      "path": "Car-Design-ShapeNetCar/models/LinearNO_Attention.py",
+      "sha256": "76605fb3f0daf41750b9ec64e86423b42072f03f53988c9864e9de2f409db72b",
+      "source_sha256": "76605fb3f0daf41750b9ec64e86423b42072f03f53988c9864e9de2f409db72b"
+    },
+    {
+      "path": "Car-Design-ShapeNetCar/models/Transolver.py",
+      "sha256": "9dbea9edae30b0d8484a458b4bdb9b33427e9fda815c8011d64f19fb50e14ffa",
+      "source_sha256": "9dbea9edae30b0d8484a458b4bdb9b33427e9fda815c8011d64f19fb50e14ffa"
+    },
+    {
+      "path": "Car-Design-ShapeNetCar/scripts/Evaluation.sh",
+      "sha256": "962b0741edbd6f206b864e88a5c8bfe2215f1060361c589e4aa3bdb5acb60a5a",
+      "source_sha256": "962b0741edbd6f206b864e88a5c8bfe2215f1060361c589e4aa3bdb5acb60a5a"
+    },
+    {
+      "path": "Car-Design-ShapeNetCar/scripts/Transolver.sh",
+      "sha256": "eb32cec4c8aa5d2bce3181cd80dc923da27fca40cc8785f510201c859f903402",
+      "source_sha256": "eb32cec4c8aa5d2bce3181cd80dc923da27fca40cc8785f510201c859f903402"
+    },
+    {
+      "path": "Car-Design-ShapeNetCar/utils/drag_coefficient.py",
+      "sha256": "3fb491b272c6fac9a07c1f4bc864a5db1cc8afef861364df9a1b2496e45386f2",
+      "source_sha256": "3fb491b272c6fac9a07c1f4bc864a5db1cc8afef861364df9a1b2496e45386f2"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "2c919cd03fa823bf7eefc00a957ff8324c865cd22aa5285e563dc4b558084f25",
+      "source_sha256": "2c919cd03fa823bf7eefc00a957ff8324c865cd22aa5285e563dc4b558084f25"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/model/Embedding.py",
+      "sha256": "1371e3c234d2d29be783ee817ecc7e65e8e0b36024b95b6c3c256b2054a9720d",
+      "source_sha256": "1371e3c234d2d29be783ee817ecc7e65e8e0b36024b95b6c3c256b2054a9720d"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/model/LinearNO.py",
+      "sha256": "6b63ed88ca38673a9112873df27ebf9f48e5607c8f38d176aa17affd6506cfcb",
+      "source_sha256": "6b63ed88ca38673a9112873df27ebf9f48e5607c8f38d176aa17affd6506cfcb"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/model/LinearNO_Attention.py",
+      "sha256": "eddfbb9b15435eae0b55a2fcd50b32871ab9ee4d4f206aef065b1eb8e13c4032",
+      "source_sha256": "eddfbb9b15435eae0b55a2fcd50b32871ab9ee4d4f206aef065b1eb8e13c4032"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/model/Physics_Attention.py",
+      "sha256": "4fc710f6f96788fb59cb19fab8d64873d3d16e9e182f12a544d451c74c548cc7",
+      "source_sha256": "4fc710f6f96788fb59cb19fab8d64873d3d16e9e182f12a544d451c74c548cc7"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/model/Transolver_Irregular_Mesh.py",
+      "sha256": "5259759f7ecc6a954c8442ac8359990b9f242f1437c452c69e5e0f03549b5311",
+      "source_sha256": "5259759f7ecc6a954c8442ac8359990b9f242f1437c452c69e5e0f03549b5311"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/model/Transolver_Structured_Mesh_2D.py",
+      "sha256": "d4b0db8a52c26ba6433f45a232947b380dfbaa4a31eac413a5e03fbef151acfc",
+      "source_sha256": "d4b0db8a52c26ba6433f45a232947b380dfbaa4a31eac413a5e03fbef151acfc"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/scripts/Transolver_Airfoil.sh",
+      "sha256": "e7e32cb24fbbce134fc33e88a0a174046efd77e564b5e257d79b1b51578ed524",
+      "source_sha256": "e7e32cb24fbbce134fc33e88a0a174046efd77e564b5e257d79b1b51578ed524"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/scripts/Transolver_Elas.sh",
+      "sha256": "997b306121224e8ad8b7c69287489c595e803dab993f1e8e24c24c88acf7b6b6",
+      "source_sha256": "997b306121224e8ad8b7c69287489c595e803dab993f1e8e24c24c88acf7b6b6"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/utils/normalizer.py",
+      "sha256": "d8eea799d6bad852854e9e58fdb705676fd3d75ed77ce3e01bcdd45295689a7b",
+      "source_sha256": "d8eea799d6bad852854e9e58fdb705676fd3d75ed77ce3e01bcdd45295689a7b"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/utils/testloss.py",
+      "sha256": "1a520c0b9c27fe4eaba27e1c72217ba375c2749dee7c04cd6acffeb3d3303bff",
+      "source_sha256": "1a520c0b9c27fe4eaba27e1c72217ba375c2749dee7c04cd6acffeb3d3303bff"
+    },
+    {
+      "path": "cdlno/linearno/__init__.py",
+      "sha256": "ab68d22eed9bc03a15b23e201fcfaa9b6a939cd2ba8a4366aae5222feb8151c5",
+      "source_sha256": "ab68d22eed9bc03a15b23e201fcfaa9b6a939cd2ba8a4366aae5222feb8151c5"
+    },
+    {
+      "path": "cdlno/linearno/_profile_data.py",
+      "sha256": "c303d38fd3a6fe4be59a3c06c40e991c94fafd56cc8e48d8b57b2b3971e6b404",
+      "source_sha256": "c303d38fd3a6fe4be59a3c06c40e991c94fafd56cc8e48d8b57b2b3971e6b404"
+    },
+    {
+      "path": "cdlno/linearno/air_visualization.py",
+      "sha256": "0e399b8babd88acca93806e692e8ed487fae0253dac9ffb5a65fed1c49660081",
+      "source_sha256": "0e399b8babd88acca93806e692e8ed487fae0253dac9ffb5a65fed1c49660081"
+    },
+    {
+      "path": "cdlno/linearno/airfrans.py",
+      "sha256": "6224f65a51761ea99a93c65371b635e288294f91f6f2874c70cd3a3188b9def1",
+      "source_sha256": "6224f65a51761ea99a93c65371b635e288294f91f6f2874c70cd3a3188b9def1"
+    },
+    {
+      "path": "cdlno/linearno/attention.py",
+      "sha256": "fb96a125617b7ef28870d941a5b59b68dba8fd3196dd1704a0af470070dc84aa",
+      "source_sha256": "fb96a125617b7ef28870d941a5b59b68dba8fd3196dd1704a0af470070dc84aa"
+    },
+    {
+      "path": "cdlno/linearno/car_metrics.py",
+      "sha256": "7660a9da06d2cb83fbc8ef90c3cda8ea40f719bf63ce63b4be3bd213ce23615c",
+      "source_sha256": "7660a9da06d2cb83fbc8ef90c3cda8ea40f719bf63ce63b4be3bd213ce23615c"
+    },
+    {
+      "path": "cdlno/linearno/profiles.py",
+      "sha256": "402531f8b9193a62590c8f683092ab14899ef38a69a1705d9bc8f76a20c9ff51",
+      "source_sha256": "402531f8b9193a62590c8f683092ab14899ef38a69a1705d9bc8f76a20c9ff51"
+    },
+    {
+      "path": "cdlno/linearno/shapenet.py",
+      "sha256": "84b5e7523f0299f05fb2eba2b798cc7539a6d460e39c5029e439b0acf3ad0ef6",
+      "source_sha256": "84b5e7523f0299f05fb2eba2b798cc7539a6d460e39c5029e439b0acf3ad0ef6"
+    },
+    {
+      "path": "cdlno/linearno_loop/v5/__init__.py",
+      "sha256": "8c7aab6a83b776be9e5564556d9c921f5b9fe1cf1bf0d93acb0643fe5448755f",
+      "source_sha256": "8c7aab6a83b776be9e5564556d9c921f5b9fe1cf1bf0d93acb0643fe5448755f"
+    },
+    {
+      "path": "cdlno/linearno_loop/v5/construction.py",
+      "sha256": "a1eea912d1c87902f50747cdec95140eb4050694cce845e9fb13228ecbec70b8",
+      "source_sha256": "a1eea912d1c87902f50747cdec95140eb4050694cce845e9fb13228ecbec70b8"
+    },
+    {
+      "path": "cdlno/periodic_visualization.py",
+      "sha256": "cfb8041aadf0c6974ebfae1aae03627c040acbb22f0a344829c28a9dbfad61f7",
+      "source_sha256": "cfb8041aadf0c6974ebfae1aae03627c040acbb22f0a344829c28a9dbfad61f7"
+    },
+    {
+      "path": "iclr_vis/ffn/airfoil.sh",
+      "sha256": "bfd222f43c0cc46a59d922ea9f9e6c9b0309855e63fa32bce966939dd48d9e98",
+      "source_sha256": "bfd222f43c0cc46a59d922ea9f9e6c9b0309855e63fa32bce966939dd48d9e98"
+    },
+    {
+      "path": "iclr_vis/ffn/capture.py",
+      "sha256": "949bdd270075d5fbb668858abb12f2c016bbf6aec1db9e19f4352beea294e86f",
+      "source_sha256": "949bdd270075d5fbb668858abb12f2c016bbf6aec1db9e19f4352beea294e86f"
+    },
+    {
+      "path": "iclr_vis/ffn/darcy.sh",
+      "sha256": "217d3df877255ff1c4b15ac217c32a5b86fce7d3e7fea5b0b0b72c1b2259bdf3",
+      "source_sha256": "217d3df877255ff1c4b15ac217c32a5b86fce7d3e7fea5b0b0b72c1b2259bdf3"
+    },
+    {
+      "path": "iclr_vis/ffn/elasticity.sh",
+      "sha256": "c6589e1a8717b8f8172c0c3c8c94e4751c79ca85cc6b8c737722e4b6807dc10a",
+      "source_sha256": "c6589e1a8717b8f8172c0c3c8c94e4751c79ca85cc6b8c737722e4b6807dc10a"
+    },
+    {
+      "path": "iclr_vis/ffn/ns.sh",
+      "sha256": "ac6458c241d8671691b03e186216ce0e3992b0699dd332b8e772c71c1290f67b",
+      "source_sha256": "ac6458c241d8671691b03e186216ce0e3992b0699dd332b8e772c71c1290f67b"
+    },
+    {
+      "path": "iclr_vis/ffn/pipe.sh",
+      "sha256": "144486629168ace341ef104b18791411a8db9ffbe3400b47366762640eec5e53",
+      "source_sha256": "144486629168ace341ef104b18791411a8db9ffbe3400b47366762640eec5e53"
+    },
+    {
+      "path": "iclr_vis/ffn/render.py",
+      "sha256": "cb7405ae8f84d953e95ebb6fda7df34b9b00a5e35a22ba881624ab087b14a84c",
+      "source_sha256": "cb7405ae8f84d953e95ebb6fda7df34b9b00a5e35a22ba881624ab087b14a84c"
+    },
+    {
+      "path": "iclr_vis/weight/airfoil.sh",
+      "sha256": "4fa680a67c12b46f4760cff0a714855ac11f7fa4d30fca424db2bc047030b581",
+      "source_sha256": "4fa680a67c12b46f4760cff0a714855ac11f7fa4d30fca424db2bc047030b581"
+    },
+    {
+      "path": "iclr_vis/weight/darcy.sh",
+      "sha256": "c2dfa0843984cf7d89a3ff62de436c24e5cc7d0d505dd72a73febfe6ed4651d4",
+      "source_sha256": "c2dfa0843984cf7d89a3ff62de436c24e5cc7d0d505dd72a73febfe6ed4651d4"
+    },
+    {
+      "path": "iclr_vis/weight/elasticity.sh",
+      "sha256": "fda0bb7df8c8acc9766ca0cb18f2d3db9cbe0a739aedcb1b8f5c205cf63dfb3e",
+      "source_sha256": "fda0bb7df8c8acc9766ca0cb18f2d3db9cbe0a739aedcb1b8f5c205cf63dfb3e"
+    },
+    {
+      "path": "iclr_vis/weight/ns.sh",
+      "sha256": "c0bf626eae9695760177aab267f52190cfba48463d01cf821c620d01c6cb91d3",
+      "source_sha256": "c0bf626eae9695760177aab267f52190cfba48463d01cf821c620d01c6cb91d3"
+    },
+    {
+      "path": "iclr_vis/weight/pipe.sh",
+      "sha256": "46248830e11ee6db4083dc47842058d78620a6d9a2059ce14ba21a6d36980706",
+      "source_sha256": "46248830e11ee6db4083dc47842058d78620a6d9a2059ce14ba21a6d36980706"
+    },
+    {
+      "path": "linearno_loop/state.py",
+      "sha256": "eb9b7f8b6c3d1932b2cec58722bcf90a2d0869fb843b25a26d75d0564fbf3e1e",
+      "source_sha256": "eb9b7f8b6c3d1932b2cec58722bcf90a2d0869fb843b25a26d75d0564fbf3e1e"
+    },
+    {
+      "path": "linearno_loop/v5/__init__.py",
+      "sha256": "6c094b724f9e87f508cbd8638bd615bf273d3f784ceb5901cecd4370ff23eeb6",
+      "source_sha256": "6c094b724f9e87f508cbd8638bd615bf273d3f784ceb5901cecd4370ff23eeb6"
+    }
+  ],
+  "adapted": [
+    {
+      "path": "Airfoil-Design-AirfRANS/cdlno_entry.py",
+      "sha256": "bb61ef802fbc969a5a8bfa632ef58143e195f2b9b52f8dddbb48f3eb7a171686",
+      "source_sha256": "c2e1ed44e9a9de234247d5944598018d82a131f6ccfb0a220cf52ff1f2969453"
+    },
+    {
+      "path": "Airfoil-Design-AirfRANS/dataset/dataset.py",
+      "sha256": "ee110d15c718ca4ebc7f66199d88512c5033a32429c1497485675d8ce1999a0b",
+      "source_sha256": "b38770f711cabb7c8cfeb23100e14eb07dd3119c2a5ccc685ec559f00b3c78ca"
+    },
+    {
+      "path": "Airfoil-Design-AirfRANS/main.py",
+      "sha256": "4841b37ac87a5c1efe4169d6d8a190dbe97c88827eb446ebb9fd2fd08cea2fb7",
+      "source_sha256": "71d7c16894938865da26420496521c03db36e31a0d01fcf56187b95bb38da64c"
+    },
+    {
+      "path": "Airfoil-Design-AirfRANS/main_evaluation.py",
+      "sha256": "5a989fa1300b1867ee0e21963ef094f11a56d96227c5b4d49369b9edadb16303",
+      "source_sha256": "3e085ecc4a988d1aebe656dc3c9de166a3ecf193fc1aa1456ef4dc0b2c18f400"
+    },
+    {
+      "path": "Airfoil-Design-AirfRANS/params.yaml",
+      "sha256": "2dfeeaff7569c660135f995afaa4935a44a05993d6d66625cc11fde0f55eadf8",
+      "source_sha256": "da790789d09a738df20a8c785cf67df0c10486153d69e632ae7148be8ada4e85"
+    },
+    {
+      "path": "Airfoil-Design-AirfRANS/requirements.txt",
+      "sha256": "8d1682ba5eef319d40058cdc2d06bc80ca7b1b6b493a7393ef3575f7d7574eaa",
+      "source_sha256": "5453b38b9bb483de4c1a7e17f8b54c80d362bb7d246ec5429ad609aef3952576"
+    },
+    {
+      "path": "Airfoil-Design-AirfRANS/train.py",
+      "sha256": "ce4d0e29936380b03d4430934830f8761569d84e4f98eaa5252db594478faa61",
+      "source_sha256": "d239304ee3937ad2baabbc1cb182a8191ae931ece849c01761d1ef46e7fae23e"
+    },
+    {
+      "path": "Airfoil-Design-AirfRANS/utils/reorganize.py",
+      "sha256": "2552fcd37bde199351904081839fd104ff03911a4d6bb58816be0dc2c5a9950d",
+      "source_sha256": "6cdd18acb5370b907e2a18d9eda7f7bc0bd85cce9316167000d888f30dc36605"
+    },
+    {
+      "path": "Car-Design-ShapeNetCar/main.py",
+      "sha256": "9f19603083d3c96c5dadce78193cfaa0ae784fc721541684d5ecf1440ee6bbaa",
+      "source_sha256": "3b48c58462c2af498c30bc2746cb3d0a067b3bfb918ec3f164e614acc8f725f2"
+    },
+    {
+      "path": "Car-Design-ShapeNetCar/main_evaluation.py",
+      "sha256": "3ae2094a2e26bba8bb1d330f56b0f5a86a917cdf3e8f50370f433a3c169d89ea",
+      "source_sha256": "8a0cf5fde68ecab067eba973fe5ec20e4313c7244d6862ecfe7bf390f113688c"
+    },
+    {
+      "path": "Car-Design-ShapeNetCar/models/cdlno_run.py",
+      "sha256": "8becbb334c1c2cce7d07aa9b71a493d65305d20f2f4f41233c5966290bd1fad9",
+      "source_sha256": "d2849ed37f9e55e68ba45426ff5292795f65daf9393c384b365432fe0973befd"
+    },
+    {
+      "path": "Car-Design-ShapeNetCar/requirements.txt",
+      "sha256": "bce7e1b80f776224d760b3d8e66f4d26e2759fd8e97500ea4eccb7e08876091d",
+      "source_sha256": "d904801a2579545e7d766b4c709c2c8a57bbb888303b4aa7eadec0b7709ff9d6"
+    },
+    {
+      "path": "Car-Design-ShapeNetCar/train.py",
+      "sha256": "a399cc6c8e8f2ba9b7a6d78fbba44139ebab928351f1a5b5ad41c38089f0be81",
+      "source_sha256": "178a7b4e04aec4747cbd44113e1cfac8013aa73e977fd45b4d1a120c3f970a95"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/cdlno_entry.py",
+      "sha256": "c5e7b8127adf90907b95c1fdf6336f1a47e430277cec38ad93572fc8bf2139db",
+      "source_sha256": "8e74ac0a93b6591bab239a1e5dfeb2f816915cdf73335750da43424314d942e3"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/exp_airfoil.py",
+      "sha256": "9f56c2d0dd7675f5aa5be4318fa7b53710275bd617129f8ae5404b125c2a9692",
+      "source_sha256": "0dae42b5e99febca04f033784c249161a8e5a20d8462ab577da237033e7b0c94"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/exp_darcy.py",
+      "sha256": "25a16b7b9ea6554f9122c2a96acd19ea4fadd3522663a0f3767006b154e3e62b",
+      "source_sha256": "0eb4495d896cd1a7fbadbbc0aeca0a3cab482001f1a2d1c112431ab916560289"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/exp_elas.py",
+      "sha256": "c81b335e8d9561375139acfcce77dab1f9eebe6c8b7b2d715ce8a62b176b145c",
+      "source_sha256": "282d6cfae163e6c42a6fbbda1b01e00e9d1cfed692e6a02f5c91dce6abb0eb01"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/exp_ns.py",
+      "sha256": "2d8391d15ce8e31cf35551989c69824121545b11cdd3240c8165f52e9c0e97ad",
+      "source_sha256": "d4b161fda023cd01c94f8a39b60f5354950aa3aaae514ff8a5500993751197c3"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/exp_pipe.py",
+      "sha256": "980a25118a2359407494b3cf14abd7d100582d16e2685d31fb5ccef29faf8fe3",
+      "source_sha256": "a16bd6f190dfe32d7104b8b298bed3ed19b6a6f78fa44dc2c9911bfa1a30e2ec"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/exp_plas.py",
+      "sha256": "7fe6bb34a5f92c7ba9b034fa9934af8b8538e23dcdaa3a3fa0b5fc8c35b272d5",
+      "source_sha256": "8255335bd0d7860c4ef7e1596ef510b69f1d8de8c2f7bcff1a6549e832f044e0"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/linearno_entry.py",
+      "sha256": "d6d088c1a190ace4a18d2a53b15272fe2f927641e29162943a2e5456649870cf",
+      "source_sha256": "b4a8d099a7d9185266d09558dbb389879b9c4ae0bb07a60e37b973b9c0908a27"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/model_dict.py",
+      "sha256": "a55c206692fc233edefda29622a9df5a659e750bdc85c1f30cb0b6b54aa45368",
+      "source_sha256": "4e4d8925c900924be747e57f4bd75a9dbbb575778590a53a88d52096e3497eee"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/requirements.txt",
+      "sha256": "91d46f976611c2f5aa2777dede694f010862b884f40fa5ebbf8c72316a9ec9e7",
+      "source_sha256": "822f7a8bd6676370c74598f46c6ccdf554ab835bd50dba3232a915be6c5bf645"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/scripts/Transolver_Darcy.sh",
+      "sha256": "10ae2e8693d881162f72fd8f8329ea48e2ca35221955e9a7d9022ebb7d8f6c9f",
+      "source_sha256": "c0d6241baea9eb4dfb899559dd57f3006ae090384fe13ef4ac48e793f5681156"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/scripts/Transolver_NS.sh",
+      "sha256": "d4cd74517519872cc36ea212d8aa96c14f6c97264539e0f23c70b3469392e430",
+      "source_sha256": "0c1758806c5a5c57f8cd013d5c5900ce17172cfaf3ef60c993e39a7c647460d6"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/scripts/Transolver_Pipe.sh",
+      "sha256": "17d2a62afd55fa6b3d29152f13af6949d9788667b26eb7b98247764c9e255452",
+      "source_sha256": "6c2a3c99c475539d6b16443d06780882b2d6b1678549d14fedb0847cb6603b07"
+    },
+    {
+      "path": "PDE-Solving-StandardBenchmark/scripts/Transolver_Plas.sh",
+      "sha256": "3b89779cf0392307d59098afe654723febd2f169cda9251612bcb31952661935",
+      "source_sha256": "011e25f5862199ff86536cef7cd0b4a1bf2c555ec933d2b0f0816ae732f0d337"
+    },
+    {
+      "path": "README.md",
+      "sha256": "9e7b9c6f6a149406fe4a5782d3513441077f1858ebf154d6e91b59aa4805395e",
+      "source_sha256": "fc58f271728f884d446aa89b623a6634867166ae383072bcc17e42596e333afb"
+    },
+    {
+      "path": "cdlno/__init__.py",
+      "sha256": "d9c55acb997be48f7b49b3bc0df71caf93975de42b4b5fab9e45987ff4946633",
+      "source_sha256": "aa7e4e1d615e8a74bcb17899b526e2cfe09f9080754b2e48dcf5507cdddb0d7e"
+    },
+    {
+      "path": "cdlno/experiment.py",
+      "sha256": "49f2222800b11041955156074d06db35b28779563e1bef5568919fa4b7b61afe",
+      "source_sha256": "89e1e820f8c96975206205ac1aa9136f447cd152559c67df65b26fd333122d6f"
+    },
+    {
+      "path": "cdlno/linearno/air_entry.py",
+      "sha256": "89cbd1430048eace1668cdb1528bce88ad059da304ac1d1e37f4ffbf7c6f4699",
+      "source_sha256": "2c4d06de26b5f32e04df8aa85ac1d6ba1283697594744b533e9d5aeca023847d"
+    },
+    {
+      "path": "cdlno/linearno/car_entry.py",
+      "sha256": "4add0f98ed2df8d2c787c342d9950cbe2a1a8730d2d636deaa657ef987590d21",
+      "source_sha256": "2b39e0135901e29b6ff0c1253d0c535992d003e5af6802a59360e0db9da3a1b5"
+    },
+    {
+      "path": "cdlno/linearno/checkpoint.py",
+      "sha256": "b924aedea14aacf0922d383efffae3ff9cb898fef07294b0a0e2aca4331a7f80",
+      "source_sha256": "de37532025d63fe9525d768cab4512422577e3e4914bb7331cd74cdf8d21ae54"
+    },
+    {
+      "path": "cdlno/linearno/schema.py",
+      "sha256": "a6a10a86cd7dab194d7c57ea8ca70a0fccb9ed9cd45543ffa41c2a030fe01984",
+      "source_sha256": "8e8da931eb3b77031d0aa85dd0f7c9b22509638d6e0be0f181745495c9029785"
+    },
+    {
+      "path": "cdlno/linearno/standard_entry.py",
+      "sha256": "459143b649ec48391d86255b9bc45066753fdc0b4001a38fa9a24f9245644e90",
+      "source_sha256": "9ca6d801dac936b86c01b779c15dd1f3f14be284f92b3695a2c15ec78834d1b7"
+    },
+    {
+      "path": "cdlno/linearno_loop/__init__.py",
+      "sha256": "4c53a3e86a41f9a2bf34a4d946d7acc8efcab61316d641a6d59a86029362c5ae",
+      "source_sha256": "e4852cec0b4319e4108feeece3426339d84a164ea420d8106e0cd6c38522ad3d"
+    },
+    {
+      "path": "cdlno/linearno_loop/air_entry.py",
+      "sha256": "d67892964946a4c69dab07afac08a0c4df48cbe0f932e7c412129940f8613699",
+      "source_sha256": "43dca4a1c30a3b3228b0bd36ee81de1559069fe711b5d5114a24a2fbe41c5d94"
+    },
+    {
+      "path": "cdlno/linearno_loop/car_entry.py",
+      "sha256": "f9382051230ddfac4301f4ae5767ef1c82b754a501ffe0641e6c923026749aaa",
+      "source_sha256": "a0b6566d85447382d58762c3ee001d67140613e44fbe3bee1f24e40e917cc60b"
+    },
+    {
+      "path": "cdlno/linearno_loop/checkpoint.py",
+      "sha256": "d66a1247d94009c65252b88e1c476941a0cf7930f7850da91fbc88d33cb96fbf",
+      "source_sha256": "31441bcc2e6f392f0f89d158eabf3099b2103f5c9438c3051c9df9da83a5066a"
+    },
+    {
+      "path": "cdlno/linearno_loop/construction.py",
+      "sha256": "9907f30956b6799760d435a47775b4771c4ddbe375799e785c0078626a9871b7",
+      "source_sha256": "dd7e64b552c2f3c536403e41688a036edf2b13b13dc26df94cb46efc3e3b0cd8"
+    },
+    {
+      "path": "cdlno/linearno_loop/industrial_entry.py",
+      "sha256": "db548d31476bdcf4117f0ef1a9ae0dc9bf3357666a0cf673a99dfc1d5b8fc662",
+      "source_sha256": "351d5787398009ce05ea02bdb555ac7d7f5a7064479d0ced806ccfcb119a6fec"
+    },
+    {
+      "path": "cdlno/linearno_loop/industrial_state.py",
+      "sha256": "bc82d854f33975250b423dd5e6778cb5c7d66d76ac1c4dc7b4c2389061b4548d",
+      "source_sha256": "692019b3bd6e3932df22e45e16d113d2025654bae7edb1b316d33cd378e03acf"
+    },
+    {
+      "path": "cdlno/linearno_loop/provenance.py",
+      "sha256": "e707f167447c92d3736d470f7016572a60ab21041253c7bcc3a94bb3810fd9b9",
+      "source_sha256": "3522bcb220bea3b956739d5618b2ee51a29208f99f534e5b76501d6edd62913d"
+    },
+    {
+      "path": "cdlno/linearno_loop/standard_entry.py",
+      "sha256": "d46204cce93a1116737ffa0269222c02a06a36f132972df750aa9992cc694c4b",
+      "source_sha256": "3a180ea32b44f8dab74a9a30c7a04d375e413526109d38da512585dd7d303181"
+    },
+    {
+      "path": "cdlno/linearno_loop/v5/airfrans.py",
+      "sha256": "ea4822705059aaf275ea3cdb7f5a7e1b21385468687f942c1e944ccf66baa82b",
+      "source_sha256": "826d5464287ee5636622334811cfe8c8d73ed191763a364ed08e81136653a2ec"
+    },
+    {
+      "path": "cdlno/linearno_loop/v5/checkpoint.py",
+      "sha256": "2e311f9ab9d363da119372606805b2be099e09f35aa209213f86ffd889728dc5",
+      "source_sha256": "85abb7bffb02d9856423e88524c774158d61f44504ea0ef3e690ef24956ee419"
+    },
+    {
+      "path": "cdlno/linearno_loop/v5/core.py",
+      "sha256": "eb63d8582664416951e74f1c2ed153b035c90824906f2b528efe94c2f6ea6739",
+      "source_sha256": "ac919f50a61fba31a7d510347129213617c06d19279406fb82f602738de96bf8"
+    },
+    {
+      "path": "cdlno/linearno_loop/v5/operator.py",
+      "sha256": "9c085cc36ba99619af5eeba82e5ef4d821da40846a9dcb770e51c11edcb30149",
+      "source_sha256": "fd352af51b4593cdc59d701f812d4df0353454a6a0e9ab7145db9e93f89a684f"
+    },
+    {
+      "path": "cdlno/linearno_loop/v5/provenance.py",
+      "sha256": "5bea4d9bbbb06bdfc0e00c4afad50b025740a044dd0cc266bf687702dead9c80",
+      "source_sha256": "eb23d82f610750d10794916bdeac5652cb82f37eb1c87bd378ae638a43e6f37b"
+    },
+    {
+      "path": "cdlno/linearno_loop/v5/shapenet.py",
+      "sha256": "0c9eeeaf3abe3b439b0522097eca34ddc88cfacbe8018cf376d452aa1e5a1878",
+      "source_sha256": "f3ae62e2b2ce542a92f252d5ccdd613ffbe85888fdd8be51663f320213d90044"
+    },
+    {
+      "path": "cdlno/linearno_loop/v5/standard.py",
+      "sha256": "9132501b39f58ddffaa8f1c97d850188a3b9ebfb56b4ba8ec790fe6286c717f3",
+      "source_sha256": "b9ed5101c292684b756f769eac7a1b909672363304c967ae09d3d10125397851"
+    },
+    {
+      "path": "cdlno/linearno_loop/versioning.py",
+      "sha256": "cf6afda6d38cdaeae55550706acf8503960d143687c7596be7345b2912fd2eb2",
+      "source_sha256": "c273e9466cd47a02cefc29181486f60163a0da576dcf7546dba6040a0e61ae69"
+    },
+    {
+      "path": "cdlno/training_observer.py",
+      "sha256": "0b3e1d08c119f830db788950fb4769d5d75a9e667e021d0686895ded7fa5bfd3",
+      "source_sha256": "6241bbc5b9bf61813b8045e0cedb49441f518aac4b67cea0c40b39315fff7af5"
+    },
+    {
+      "path": "cdlno/training_state.py",
+      "sha256": "8e664c99da03487dd488615f3d78b62af4415e89f1dda40b9bf4ae427eb44208",
+      "source_sha256": "4c6d83a7b5053889b5228ebfeef9149bf4d9966c5420ae0a0dc5847842496b63"
+    },
+    {
+      "path": "cdlno/visualization.py",
+      "sha256": "3e496179fb8b4c9e90bfd928e8c9a02ad376eb59b29bb90c3319b271b5ba036a",
+      "source_sha256": "cec9b01741e897f625b8bb8ebb9e15254fe898f992b3771b45f4053b0c683bb5"
+    },
+    {
+      "path": "iclr_vis/ffn/ffn_states.py",
+      "sha256": "f0dc9b6aa15bed40bcdf49dcb3d78d517a7b14ef847a04700fc18fab8ddd1e10",
+      "source_sha256": "1528ced4465ea5508792baa7beb781cffe469dd69a0f674ad4134679cfd559c5"
+    },
+    {
+      "path": "iclr_vis/ffn/test_ffn_states.py",
+      "sha256": "4f3a7662d89349624a35b9c1619adaef4645a96e6d3bc9403a1e3d2d03178bcf",
+      "source_sha256": "cc4010e71b07bef24be0745e60409a8c4710cd6d9898c29e33756a923bbd53d0"
+    },
+    {
+      "path": "iclr_vis/weight/airfoil_states.py",
+      "sha256": "62b4ba4a64a24ff801238250288326dc65682714b7b705f21211a2b9d2772cdc",
+      "source_sha256": "48b65804484f59f6998eb92787eb476c7f04cd0633776239ddf8d6fc482879a6"
+    },
+    {
+      "path": "iclr_vis/weight/task_states.py",
+      "sha256": "c41e36ad7417154d2f366f656ad74ee293f8515f84e21a4c1ca37542df04f42f",
+      "source_sha256": "509d04ae8b09ad972b5190fd41e7c6130f173f6a2e2e789555a850141fdfbe4a"
+    },
+    {
+      "path": "iclr_vis/weight/test_airfoil_states.py",
+      "sha256": "149beba364b870b47af60236a21f76175a24952fbecf567b90eacfb82c2e2654",
+      "source_sha256": "17c2ceb4e6b618bc01d271c428167d619cbd051d3898383d799540cb2a3f4ef0"
+    },
+    {
+      "path": "iclr_vis/weight/test_task_states.py",
+      "sha256": "af165b3d1cae5abd9c4c50688b385e626e54624d56ebdc7f6387827958fa03d5",
+      "source_sha256": "11916c8be6eddcf4c20a55a0b2e4e75dcdfea1f67c8b66611e9017e0d82cc264"
+    },
+    {
+      "path": "linearno_loop/__init__.py",
+      "sha256": "dd645632743c8d1d0a9e998d76503eadd8e133ba4b47a3a5de4e74313e6f61fa",
+      "source_sha256": "2a731667454a03fac35b566a3beb6756cf7ae1e2dfa02232bbfc58e2f24b48ae"
+    },
+    {
+      "path": "linearno_loop/config.py",
+      "sha256": "1651d0d7e69ee719b49bc79d1b984c465d4f78c284c41d6972547534e26ca319",
+      "source_sha256": "0cb5d32e902cac11ad2c8648c21b19650fce951f1cbce0eabe5a677f61370d23"
+    },
+    {
+      "path": "linearno_loop/contracts.py",
+      "sha256": "718225e59216479e119e9338388d825884ee4541d3443aee802640d833721aad",
+      "source_sha256": "f208acdaba06906dc1b237946db24d3f27799f2a84e522b9af701186c022a3ea"
+    },
+    {
+      "path": "linearno_loop/schema.py",
+      "sha256": "f13d8ba6dacbd7edc1a9367706acba6d39083b6b69b1c54dcea435082b9d44c2",
+      "source_sha256": "b4ad3e1688baba42c09d15a3969beb951484e046cef0c9664914cdfabeacc978"
+    },
+    {
+      "path": "linearno_loop/v5/config.py",
+      "sha256": "b2b63c2dc0e3bad6ccc34110a8842a005d1bfbf801c8b72ef02ece9bbe35508f",
+      "source_sha256": "72854e8aab1cb0089f452bf647f0f8f9a65702ff44d2fad11f4d530864527b65"
+    },
+    {
+      "path": "linearno_loop/v5/contracts.py",
+      "sha256": "11f1bca417c19d9fe0b873049b468cdd2de0cd6c28e6bf64b421b8f245b4101d",
+      "source_sha256": "95ab8b1a8678bdd1840bff6c0f5cfaf40962a408adbbaf974c31fb928fdb094a"
+    },
+    {
+      "path": "linearno_loop/v5/schema.py",
+      "sha256": "82d39eb872e6bc31a1adf30074927ca1d8ad1808f6c2c5e8efe2fe097195cc9e",
+      "source_sha256": "8d1458718c63dc54ca17c4ca35f514be7ce48961e4b91e3fe18055020d062511"
+    },
+    {
+      "path": "linearno_loop/versioning.py",
+      "sha256": "1de2280722b4e7422f3dfefe2bbea045700108c04a01ad520baa1162a98c1107",
+      "source_sha256": "d0d4f7643c274ffcc873f5a5c172701b218c50d7df3db5b5109fbb02d24761f8"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "d076c85659664c612c2bdf860b5f7f7726bd375c81de7cec7b759e627cb9af08",
+      "source_sha256": "34430853bae8ed064a44a999bbfe563321a75010144aceccc2d807c4ba3efbd2"
+    }
+  ],
+  "new": [
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "sha256": "27f433d739ec08070e03c4a7ebfff3254b96712c3827cb3cca6cb2f1f7b087fe"
+    },
+    {
+      "path": "cdlno/provenance.py",
+      "sha256": "8eb31ab2144c23f7b4a7a5e739843aff6c456dbfca9de7a09bde242846985e7b"
+    },
+    {
+      "path": "cdlno/runtime.py",
+      "sha256": "01997598cb0345ec7ad6164efd1a2a969ac267374b054e58d67308b09fff4062"
+    },
+    {
+      "path": "docs/BENCHMARKS.md",
+      "sha256": "b5d668c14ab97cb9bbb00868bba096fa0a596e77dd379fae3d479da4ca1194f0"
+    },
+    {
+      "path": "docs/REPRODUCING.md",
+      "sha256": "6d044a8d41656c35eeeb89a260b324b2485d588d241667eb076a894a9b9e6677"
+    },
+    {
+      "path": "phyloopno/__init__.py",
+      "sha256": "65063bb529cca9b0d5bd88e688f1a43599792efec968bd7cae80577c7d6a0288"
+    },
+    {
+      "path": "phyloopno/cli.py",
+      "sha256": "e1653dba31687b8ca2244bcbb6a3fcda8ee9a5a0cfa418c8c3406ccffe385edf"
+    },
+    {
+      "path": "requirements-industrial.txt",
+      "sha256": "184c17b849a4b3dce5f702992b7b338ad40c1dc7d337d7265c282dcf1f910f6c"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "a582091cbb54e45941df0956debd95ddc39d5cd4f2882cbb7dad04cdcd67c452"
+    },
+    {
+      "path": "scripts/depth_sweep.py",
+      "sha256": "e84ecb8d4da8a22ee507b54c5374da9c4f6cced559d374f32b32c55e0f2e4fa9"
+    },
+    {
+      "path": "scripts/run.py",
+      "sha256": "0fc1ee31dfdc136bd38aa1652d61bac53fc33730e4931c9249c20d30dc4b94d2"
+    },
+    {
+      "path": "tests/test_benchmarks.py",
+      "sha256": "c65639e908eed1534ce1af3f21eb6df5ae8672f172adfb5a495b40ff60d360f8"
+    },
+    {
+      "path": "tests/test_cli.py",
+      "sha256": "b40d72b4e606b2b5ddc9be90b97a837d122a61262ad0d52821514098888db42d"
+    },
+    {
+      "path": "tests/test_linearno.py",
+      "sha256": "cbd1c9e9e52e2376d3ec4d3d1d97dd312cb94a37107ea4764014af501a068bc7"
+    },
+    {
+      "path": "tests/test_model.py",
+      "sha256": "2353141cd755abd420ab90e949f2813ce7198138589ff263a18423165e45355a"
+    },
+    {
+      "path": "tests/test_runtime.py",
+      "sha256": "6065a9a42697303fccd159532bdae0d53410353ed603ab9a688449ffca2c36b6"
+    }
+  ],
+  "excluded_families": [
+    "CDLNO/CDPA",
+    "KCDNO",
+    "MSAR-LNO",
+    "LinearNO history/AttnRes",
+    "loop V1-V4",
+    "latent FFN and bilateral adapters"
+  ],
+  "excluded_artifacts": [
+    "planning prompts",
+    "conversation exports",
+    "historical audit evidence",
+    "generated figures",
+    "old archives",
+    "personal run and monitor scripts"
+  ],
+  "manifest_scope": "source files; this manifest and final validation report omitted to avoid self-reference"
+}
